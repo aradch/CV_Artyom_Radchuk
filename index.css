@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.content {
+  font-size: larger;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.changeLanguage {
+  color: rgb(139, 139, 139);
+  cursor: pointer;
+  font-size: larger;
+}
+
+.active,
+.important {
+  background-color: black;
+  color: white;
+}
+
+.en {
+  display: none;
+}
+
+.info {
+  text-align: center;
+  margin: 20px;
+}
+
+.link {
+  background-color: #ff8853;
+  cursor: pointer;
+}
+
+.profile {
+  margin: 50px auto;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 30px;
+  grid-template-areas: "a c";
+}
+
+.contacts {
+  grid-area: c;
+  align-self: center;
+}
+
+.avatar {
+  grid-area: a;
+  width: 200px;
+  border-radius: 50%;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+}
